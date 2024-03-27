@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-main h1 {
+  color: rgb(2, 26, 48);
+
+}
+
+.container-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 37rem;
+  margin: 3rem;
+  padding: 4rem;
+  border-radius: 2rem;
+  background-color: rgb(201, 232, 236);
+}
+
+.container-Form h1 {
+  margin-bottom: 4rem;
+}
+
+.container-Form label {
+  display: flex;
+  align-self: flex-start;
+
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.container-Form input {
+  width: 37.5rem;
+  height: 1.875rem;
+}
+
+.container-Form select {
+  width: 6.25rem;
+  height: 1.875rem;
+  align-self: flex-start;
+}
+
+button {
+  width: 12.5rem;
+  height: 3.125rem;
+  cursor: pointer;
+  color: rgb(2, 26, 48);
+  border: none;
+
+}
